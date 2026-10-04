@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_AGENCYSWARM",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 3.625730994152047
+    },
+    "complexity_grade": "A",
+    "complexity_score": 3.625730994152047,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_AGENCYSWARM\\UPSTREAM\\conftest.py\n    F 369:0 _filter_response_headers - C (15)\n    F 347:0 _filter_request_headers - B (8)\n    F 404:0 vcr_cassette_dir - B (6)\n    F 16:0 _patch_vcrpy_aiohttp_compat - A (5)\n    F 137:0 _patched_make_vcr_request - A (4)\n    F 253:0 setup_test_environment - A (4)\n    F 130:0 bedrock_host_matcher - A (3)\n    F 444:0 vcr_config - A (3)\n    F 124:0 _normalize_bedrock_host - A (2)\n    F 173:4 _patched_from_serialized_response - A (2)\n    F 191:0 cleanup_event_handlers - A (2)\n    F 206:0 reset_tracing_state - A (1)\n    F 238:0 reset_event_state - A (1)\n    F 438:0 pytest_recording_configure - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_AGENCYSWARM\\UPSTREAM\\_anticloud_egress.py\n    F 38:0 _is_frontier - A (4)\n    F 43:0 guarded_connect - A (4)\n    F 61:0 install - A (3)\n    F 33:0 is_offline - A (1)\n    C 29:0 EgressDenied - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_AGENCYSWARM\\UPSTREAM\\scripts\\age90_file_input_runner.py\n    F 41:0 _sanitize_payload - B (8)\n    F 98:0 run_crew_kickoff - B (7)\n    F 201:0 main - B (7)\n    F 28:0 _content_summary - A (5)\n    F 58:0 inspect_native_path - A (5)\n    F 81:0 inspect_fallback_tool - A (3)\n    F 164:0 parse_args - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_AGENCYSWARM\\UPSTREAM\\scripts\\wharf_runner.py\n    F 230:0 main - C (11)\n    C 105:0 FirecrawlAgent - B (6)\n    M 108:4 FirecrawlAgen",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_AGENCYSWARM\\UPSTREAM\\conftest.py - A (48.13)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_AGENCYSWARM\\UPSTREAM\\_anticloud_egress.py - A (79.55)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_AGENCYSWARM\\UPSTREAM\\scripts\\age90_file_input_runner.py - A (43.41)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_AGENCYSWARM\\UPSTREAM\\scripts\\wharf_runner.py - A (50.18)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "L_AGENCYSWARM",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "crewAIInc/crewAI",
+  "commit": "a0d16dde6ecf",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 53.47,
+      "min": 46.01,
+      "max": 66.53,
+      "all": [
+        53.0,
+        51.49,
+        46.01,
+        50.34,
+        66.53
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "L_AGENCYSWARM (crewAIInc/crewAI) \u2014 31865 files, 355698 source lines, licence MIT, primary language ['Python']",
+      "token_count": 38,
+      "tokens_preview": [
+        "[CLS]",
+        "l",
+        "_",
+        "agency",
+        "##sw",
+        "##arm",
+        "(",
+        "crew",
+        "##ai",
+        "##in",
+        "##c",
+        "/",
+        "crew",
+        "##ai",
+        ")",
+        "\u2014",
+        "318",
+        "##65",
+        "files",
+        ","
+      ],
+      "tokenization_latency_ms": 2.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5841,
+      "classification_latency_ms": 77.49,
+      "status": "PASS"
+    }
+  }
+}
